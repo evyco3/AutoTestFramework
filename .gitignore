@@ -13,3 +13,6 @@
 
 # Except the .gitignore file itself
 !.gitignore
+
+# Except the Jenkinsfile
+!Jenkinsfile
