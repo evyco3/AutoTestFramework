@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="com.evy.framework.listener.AllureScreenshotListener"/>
+    </listeners>
+    <test name="sylius-UI" parallel="classes" >
+        <classes>
+            <class name="com.evy.test.LoginTest"/>
+            <class name="com.evy.test.RegisterTest"/>
+            <class name="com.evy.test.ProductDropdownTest"/>
+            <class name="com.evy.test.ProductListingTest"/>
+            <class name="com.evy.test.AddProductToCartTest"/>
+            <class name="com.evy.test.EndToEndTest"/>
+        </classes>
+    </test>
+</suite>
